@@ -33,7 +33,7 @@ const handleChange = (e)=>{
     }
 
     try {
-        const url = "http://localhost:8080/auth/signup";
+        const url = "https://deploy-mern-app-1-api.vercel.app/uth/signup";
         const response = await fetch(url, {
             method: "POST",
             headers: {
