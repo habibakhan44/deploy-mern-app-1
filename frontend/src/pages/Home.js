@@ -8,7 +8,7 @@ function Home() {
   useEffect(() => {
     const token = localStorage.getItem('token');
 
-    axios.get('http://localhost:8080/products', {
+    axios.get('https://deploy-mern-app-1-api.vercel.app/products', {
       headers: {
         Authorization: `Bearer secret-123`
       }
